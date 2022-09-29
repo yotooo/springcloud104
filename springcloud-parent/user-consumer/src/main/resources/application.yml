@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: user-consumer
+eureka:
+  client:
+    service-url:
+      # EurekaServer的地址
+      defaultZone: http://localhost:7001/eureka

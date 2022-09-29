@@ -1,5 +1,5 @@
 -- 使用springcloud数据库
-USE springcloud;
+    USE springcloud;
 -- ----------------------------
 -- Table structure for tb_user
 -- ----------------------------
