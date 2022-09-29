@@ -1,0 +1,3 @@
+# Project exclude paths
+/itheima-rest-consumer/target/
+/itheima-rest-provider/target/
