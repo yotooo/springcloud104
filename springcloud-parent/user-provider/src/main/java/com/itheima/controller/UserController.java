@@ -30,6 +30,12 @@ public class UserController {
      */
     @GetMapping("/{id}")
     public User findById(@PathVariable(name = "id") Integer id) {
+        System.out.println("8081");
+        return userService.findById(id);
+    }
+    @GetMapping("/find/{id}")
+    public User find(@PathVariable(name = "id") Integer id) {
+        System.out.println("8081");
         return userService.findById(id);
     }
 }

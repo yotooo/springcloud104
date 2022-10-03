@@ -11,6 +11,7 @@
     <description>springcloud和springboot做统一版本控制</description>
     <modules>
         <module>user-provider</module>
+        <module>user-provider2</module>
         <module>user-consumer</module>
         <module>eureka-server</module>
     </modules>
